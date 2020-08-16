@@ -1,0 +1,24 @@
+a) Zone  - A big geographical area.
+b) Region - An actual data center
+ c) Multi-region - It means multiple data center in a region.
+ -GCP allows global IP address which can load balance worldwide.
+ -GCP Pricing: Two ways - a) provisioned , b) Usage.
+ -IN provisioned , we will be asking GCP to keep the resources ready for me so i can use them anytime but I will be charged even when I am not using them.
+ -In usage,I will be charged when i sue them only.
+ - In most services depends on region and location , GCP wont charge at all for incoming traffic (ingress) but there might be charges when the data leaves the network as it requires more data processing,compression, encryption.
+
+===========================================
+
+ Cloud functions - Its similar service like Lambda in AWS which is event driven service. An event will occur and function will execute . So, we wont have to configure servers in advance . We have to pay only when event will occur.
+ Cloud storage is object based storage.
+ Persistent Disk - Its block storage . For extra storage , you need to attach hardware disk.
+ Cloud Filestore - Its neither object based nor block based storage.Its File based storage.
+ Cloud SQL- Managed SQL and PostgreSQL
+ Cloud Spanner - Horizontally scaleable and relational DB
+ Cloud Firestore - Strong No SQL database or similar product like AWS Dynamo DB
+ Cloud Pub/Sub - Real time messaging . Similar to SNS in AWS.
+ Google Big Query - Serverless - no use so no pay. Data warehouse product. Stores huge amount of data.
+
+=================================================
+
+ Once the project is created , project ID and Project number cannot be changed . We can edit Project name only.
