@@ -11,3 +11,4 @@ d) Location - It defines the geographial placement of the bucket and its objects
  
 e) Whenever objects leaves the google cloud there will be charge . If you want to retrieve the objects by any appplication or just by manually within google cloud - its all free.
 f) By default every object in a bucket is private. We have to make the chnage to make it public.
+g) Once the bucket name is set , you wont be able to rename it and you wont be able to change location . The only thing you can do is change the storage class.
