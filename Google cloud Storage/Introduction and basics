@@ -1,0 +1,13 @@
+a) Google cloud storage can store any kind of storage like audio,video, excel sheets, unformat data, pictures of any format etc...
+b) Bucket name must be unique across all google infrastructure.
+c) Bucket has 4 storage class and they complelty depend on Location
+   - Types of Storage class 
+    1) Standard - Best for short-term storage and frequently accessed data
+    2) Nearline - Best for backups and data access once a month.
+    3) Coldline - Best for data recovery and accessed less then once a quarter.
+    4) Archive - Best for long term and accessed once in a year.
+d) Location - It defines the geographial placement of the bucket and its objects.
+    Region , DUal region and Multi-region
+ 
+e) Whenever objects leaves the google cloud there will be charge . If you want to retrieve the objects by any appplication or just by manually within google cloud - its all free.
+f) By default every object in a bucket is private. We have to make the chnage to make it public.
