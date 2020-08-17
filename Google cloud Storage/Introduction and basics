@@ -12,3 +12,8 @@ d) Location - It defines the geographial placement of the bucket and its objects
 e) Whenever objects leaves the google cloud there will be charge . If you want to retrieve the objects by any appplication or just by manually within google cloud - its all free.
 f) By default every object in a bucket is private. We have to make the chnage to make it public.
 g) Once the bucket name is set , you wont be able to rename it and you wont be able to change location . The only thing you can do is change the storage class.
+h) There are two types of access control in Storage
+   - Fine-grained -> Fine-grained means access can be controlled via both buckets and its objects. It will not be necessary if bucket is public then objects will also be public . 
+   If you want to make objects public you will have to edit permissions.
+   - Uniform -> It means if access control list will be applicable on both bucket and its objects . If bucket is public so will objects be and vice versa.
+i)
