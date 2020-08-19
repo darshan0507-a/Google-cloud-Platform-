@@ -24,9 +24,11 @@ gcloud compute disks list - To get list of disks used by an instance
 gcloud compute snapshots list - To get list of snapshots of disk ( Snapshot - Its a method of saving configuration of instance in disk at a particular tiemframe , its also known as backup)
 gcloud compute disks snapshot <disk name> - To get snapshot of disk.
 
-Storage commands
+Storage commands : gsutil is a command line tool which we can use to access google cloud storage via cli.
 ==================
 gsutil ls - to list all buckets
+gsutil ls gs://<bucketname>/**   - To list all contents in buckets and folders
+gsutil mb -c <storageclass name> -l <location name> -p <project-id> gs://<uniqueu bucket name>   - command to create buckets
 gsutil help - To get to know more flags or commands
 gsutil iam get gs://chitra/ : To see IAM roles and permissions for a bucket
 gcloud pubsub topics create $PUB_SUB_TOPIC --project $PROJECT_NAME - Creating a pubsub topic for events and messaging
