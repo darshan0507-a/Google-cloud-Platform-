@@ -64,6 +64,7 @@ b) gcloud services list
 c) gcloud services list --available
 gcloud services list --enabled
 d) gcloud services list --available | grep compute
+gcloud services list --enabled | grep compute
 e) gcloud services enable <api name>
 gcloud services enable compute.googleapis.com
 c) gcloud compute instances create <VM name>
