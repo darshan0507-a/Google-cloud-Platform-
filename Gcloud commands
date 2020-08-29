@@ -60,3 +60,10 @@ Gcloud compute and services
 ==============================
 a) Its imporatnt to keep in mind that all projects are isolated entites . Making change to one project won't affect other.
 Services service enabling and siabling are project specific.
+b) gcloud services list
+c) gcloud services list --available
+gcloud services list --enabled
+d) gcloud services list --available | grep compute
+e) gcloud compute enable <api name>
+gcloud compute enable compute.googleapis.com
+c) 
