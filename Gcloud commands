@@ -45,3 +45,6 @@ versioning commands
 gsutil versioning get gs://darshan0507/
 gsutil versioning set on gs://darshan0507
 
+control ACL from CLI
+======================
+gsutil acl ch -u AllUsers:R gs://bucketname/filename/ - To give read access to public for that object only.
