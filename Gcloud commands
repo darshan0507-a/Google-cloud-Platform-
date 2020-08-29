@@ -2,6 +2,7 @@ Basic commands
 ================
 gcloud organizations list - To get list of organizations .
 gcloud config list : To know project ID and project name, account name
+gcloud config get-value project - To know project (another command)
 gcloud config configurations list : To know project ID , zone and region
 gcloud config set project <project ID > - To set project in shell
 gcloud projects list - List all projects in account
@@ -12,6 +13,7 @@ gcloud beta billing accounts list
 
 Compute commands
 =================
+gcloud services list - To get list of all services running (simply for which services API is turned On)
 gcloud compute zones list  - To list all zones
 gcloud compute regions list - To list all regions
 gcloud config set compute/region <region Name> - To set region for the project/account
