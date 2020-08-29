@@ -33,3 +33,15 @@ gsutil help - To get to know more flags or commands
 gsutil iam get gs://chitra/ : To see IAM roles and permissions for a bucket
 gcloud pubsub topics create $PUB_SUB_TOPIC --project $PROJECT_NAME - Creating a pubsub topic for events and messaging
 One command and Pubsub is ready to be used. We jsut need to create a topic
+
+gsutil label commands
+======================
+gsutil label get gs://bucketname
+gsutil label set <bucket.json> gs://bucketname/
+gsutil label ch -l "extraparam":"extravalue" gs://bucketname/
+
+versioning commands
+==================
+gsutil versioning get gs://darshan0507/
+gsutil versioning set on gs://darshan0507
+
