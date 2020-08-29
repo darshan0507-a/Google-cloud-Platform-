@@ -50,3 +50,13 @@ gsutil versioning set on gs://darshan0507
 control ACL from CLI
 ======================
 gsutil acl ch -u AllUsers:R gs://bucketname/filename/ - To give read access to public for that object only.
+
+
+
+
+
+
+Gcloud compute and services 
+==============================
+a) Its imporatnt to keep in mind that all projects are isolated entites . Making change to one project won't affect other.
+Services service enabling and siabling are project specific.
