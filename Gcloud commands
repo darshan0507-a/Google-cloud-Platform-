@@ -100,3 +100,15 @@ d) TO check the property
   
 e) To remove the property
 gcloud config unset <property>
+
+h)
+gcloud config set compute/region us-west2
+gcloud config set compute/zone us-west2-a
+gcloud compute machine-types list --filter="f1-micro AND us-west2-a"
+gcloud compute machine-types list --filter=" us-west2-a"
+
+i)
+create machine with machine-type flag
+========================================
+gcloud compute instances create --machine-type f1-micro myhappyvm
+
