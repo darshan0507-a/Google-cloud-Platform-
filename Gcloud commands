@@ -84,3 +84,17 @@ gcloud compute instances create myvm --project=bamboo-antler-286719 --format=jso
 A VM machine will get created and output will be json format which is easy to read and understand.
 
 
+Using Gcloud properties so we can use flags easily
+=================================================
+a) Its used very often for account,project,region, and zone.
+b) List of properties
+  - Set "core/account" or "account" to replace "--account"
+  - Set "core/project" or project to replace --project
+  - Set "compute/region" to replace --region
+  - Set "compute/zone" to replace --zone
+  
+c) TO set properties -
+  gcloud config set <property> <value>
+d) TO check the property
+  gcloud config get-value <property>
+  
