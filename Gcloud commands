@@ -69,3 +69,18 @@ e) gcloud services enable <api name>
 gcloud services enable compute.googleapis.com
 c) gcloud compute instances create <VM name>
 d) gcloud compute instances delete <VMName>
+
+
+
+Using Global flags along with Gcloud command
+==============================================
+
+a) Using --project flag
+gcloud compute instances list --project=bamboo-antler-286719
+b) Using --format flag
+gcloud compute instances list --project=bamboo-antler-286719 --format=json
+c) Using --filter , --account
+gcloud compute instances create myvm --project=bamboo-antler-286719 --format=json
+A VM machine will get created and output will be json format which is easy to read and understand.
+
+
