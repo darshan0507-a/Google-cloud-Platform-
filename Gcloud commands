@@ -98,3 +98,5 @@ c) TO set properties -
 d) TO check the property
   gcloud config get-value <property>
   
+e) To remove the property
+gcloud config unset <property>
