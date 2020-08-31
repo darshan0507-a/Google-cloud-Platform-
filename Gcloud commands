@@ -112,3 +112,6 @@ create machine with machine-type flag
 ========================================
 gcloud compute instances create --machine-type f1-micro myhappyvm
 
+MOST IMP : HOW TO PING A VM MACHINE FROM CLOUD SHELL
+=================================================
+gcloud compute ssh myhappyvm
