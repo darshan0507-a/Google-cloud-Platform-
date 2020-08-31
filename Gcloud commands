@@ -115,3 +115,4 @@ gcloud compute instances create --machine-type f1-micro myhappyvm
 MOST IMP : HOW TO PING A VM MACHINE FROM CLOUD SHELL
 =================================================
 gcloud compute ssh myhappyvm
+ Virual machine will have public Key starts with (ssh-rsa) and public and private key will be stored in shell vm (google cloud sheel)
