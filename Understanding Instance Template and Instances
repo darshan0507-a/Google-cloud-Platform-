@@ -5,4 +5,4 @@ c) Once the instance template created , you cannot change them . They are immuta
 d) Unmanaged instance group cannot be multizone.
 e) Delelting managed group will also delete managed instances because they belong to that group .
 However , unmanaged instances can stay alive as they are unmanaged (not mnaaged by group).
-f)
+f) Managed instances group  support Autoscaling and unmanaged instance groups do not.
