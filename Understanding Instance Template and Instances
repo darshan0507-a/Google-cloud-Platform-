@@ -2,3 +2,7 @@ There is a slight difference between Creating Instance and Creating Instance tem
 a) Instance Template is go to template which lets you describe what kind of instance you want to create and its resuable.
 b) Instance template does not ask you for region and zones so it can be used anywhere.
 c) Once the instance template created , you cannot change them . They are immutable . You can copy them and create a new one.
+d) Unmanaged instance group cannot be multizone.
+e) Delelting managed group will also delete managed instances because they belong to that group .
+However , unmanaged instances can stay alive as they are unmanaged (not mnaaged by group).
+f)
