@@ -1,0 +1,21 @@
+a) Identity and access managemnt is Authorization piece not autentication piece in GCP.Like you have read in Azure and AWS , where IAM provides both Auth and Authz.
+b) Resources - something which we create in GCP
+   Projects -  set of resources .
+   Folders - set of projects and sub folder
+   Organization - Its tied to G suite and cloud identity domain from where authorization occurs.
+   
+c) Permission - A set of instructions which a user can perform . Permissions are very explicit and a user would be only able to do those tasks for which permissions are assigned.
+Permissions follows the Service.Resource.Verb.
+example - pubsub.subscriptions.consume
+All these permissions can be called via REST API .
+
+d) Role - A role is consumer by a resource .If a role is assigned to resource then it can access other resource .
+For example - If a virtual machine has an assigned role to access bucket then VM can acccess the bucket but same VM cant do anything else until a role is assigned.
+
+types of roles 
+a) Primitive roles - defined at project level and very broad.
+b) Predefined role - gives granular permissions to resources
+c) Custom role - Self created role which will have more granularity.
+
+
+
