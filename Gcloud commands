@@ -14,6 +14,8 @@ gcloud beta billing accounts list
 Compute commands
 =================
 gcloud services list - To get list of all services running (simply for which services API is turned On)
+gcloud services list --enabled - To kist which API are enabled
+gcloud services list --disabled - To see which API's are disabled
 gcloud compute zones list  - To list all zones
 gcloud compute regions list - To list all regions
 gcloud config set compute/region <region Name> - To set region for the project/account
