@@ -31,6 +31,7 @@ Storage commands : gsutil is a command line tool which we can use to access goog
 gsutil ls - to list all buckets
 gsutil ls gs://<bucketname>/**   - To list all contents in buckets and folders
 gsutil mb -c <storageclass name> -l <location name> -p <project-id> gs://<uniqueu bucket name>   - command to create buckets
+gsutil cp <bucket1> <bucket2> - to copy from bucket 1 to bucket 2
 gsutil help - To get to know more flags or commands
 gsutil iam get gs://chitra/ : To see IAM roles and permissions for a bucket
 gcloud pubsub topics create $PUB_SUB_TOPIC --project $PROJECT_NAME - Creating a pubsub topic for events and messaging
