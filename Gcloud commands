@@ -16,6 +16,7 @@ Compute commands
 gcloud services list - To get list of all services running (simply for which services API is turned On)
 gcloud services list --enabled - To kist which API are enabled
 gcloud services list --available | grep compute - to see API compute
+gcloud services enable compute.googleapis.com - To enable compute API from CLI
 gcloud compute zones list  - To list all zones
 gcloud compute regions list - To list all regions
 gcloud config set compute/region <region Name> - To set region for the project/account
